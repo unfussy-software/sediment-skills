@@ -1,6 +1,6 @@
 ---
 name: using-sediment
-description: Saves, finds, edits and links the HTML artifacts on the user’s Sediment shelf, through Sediment’s command line tool. Use when the user asks to save, file, shelve or keep a page, or to put it on the shelf; to find or pull up something on the shelf; to update or edit an artifact, its description or its tags; or to link to one.
+description: Saves, finds, edits and links the HTML artifacts on the user’s Sediment shelf, through Sediment’s command line tool. Use when the user asks to save, file, shelve or keep a page, or to put it on the shelf; to find or pull up something on the shelf, or fetch one from its link; to update or edit an artifact, its description or its tags, or take one off the shelf; or to link to one.
 ---
 
 # Using Sediment
@@ -36,7 +36,10 @@ Wherever this skill says `sediment`, use what step 1 or 2 found.
 |---|---|
 | save, file, shelve, keep, put it on the shelf | `sediment help saving` |
 | find, pull up, open, what’s on the shelf | `sediment help finding` |
+| here’s a link, fetch this, open this link (`sediment://artifact/…`) | `sediment help finding` |
 | update, edit, change, tag, rename, pin | `sediment help editing` |
+| archive, put away, restore, bring back | `sediment help editing` |
+| remove this, take that off the shelf, undo that add | `sediment help editing` |
 | link to, a link to | `sediment help linking` |
 
 “File it” means save it: a new artifact. Read a task’s page once per session,
@@ -51,8 +54,9 @@ page points at them, this shelf has none.
 
 ## 3. Never
 
-- Never write to an artifact’s file in place, with an edit tool or a script.
-  Change content through `sediment update`, as `sediment help editing` says.
+- Never write to an artifact’s file at all, in place or by replacing it.
+  Content changes only through `sediment update --content`, as
+  `sediment help editing` says.
 - Never leave an `.html` file in the shelf folder: Sediment adds it to the
   shelf as a new artifact. Write drafts outside it.
 - Never store an artifact’s path. Ask `sediment find` again each time; the id
