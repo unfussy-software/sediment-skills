@@ -5,6 +5,18 @@ your HTML artifacts, through its command line tool. Each Sediment release
 publishes them here from its own source, so a change made here is replaced
 by the next release.
 
+## Do you need them?
+
+No. The tool's own help is the manual, and an agent with nothing but
+`sediment --help` does every task right. An eval on a small model, three
+rounds long, found no difference in correctness between agents with the
+skill and agents without it.
+
+What the skill buys is fewer steps: it names the one help page for each
+kind of task, so an agent reads one or two pages instead of four or five
+and spends fewer tokens. Install it when agents work on your shelf often,
+or to have your shelf's instructions drafted for you.
+
 ## Skills
 
 | Skill | What it does |
