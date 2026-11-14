@@ -1,14 +1,20 @@
 ---
-name: using-sediment
-description: Saves, finds, edits and links the HTML artifacts on the user’s Sediment shelf, through Sediment’s command line tool. Use when the user asks to save, file, shelve or keep a page, or to put it on the shelf; to find or pull up something on the shelf, or fetch one from its link; to update or edit an artifact, its description or its tags, or take one off the shelf; or to link to one.
+name: sediment-shelf
+description: Saves, finds, edits and links the HTML artifacts on the user’s Sediment shelf, through Sediment’s command line tool, when the session doesn’t already have Sediment’s own tools from its plugin. Use when the user asks to save, file, shelve or keep a page, or to put it on the shelf; to find or pull up something on the shelf, or fetch one from its link; to update or edit an artifact, its description or its tags, or take one off the shelf; or to link to one.
 ---
 
-# Using Sediment
+# Sediment Shelf
 
 Sediment keeps the user’s HTML artifacts on a shelf: a folder on their Mac,
 and an app over it. Work with it through its command line tool alone. The
 tool’s own help is the manual and always matches the installed version; this
 skill only says which page to read, and what never to do.
+
+If this session already has Sediment’s own tools, from its plugin or its MCP
+server, use them instead and stop reading here. They reach the app from
+outside your shell, which may run where the command line can’t reach
+Sediment, and their server’s instructions are the guide. This skill is for a
+session that has the command line alone.
 
 ## 1. Find the tool
 

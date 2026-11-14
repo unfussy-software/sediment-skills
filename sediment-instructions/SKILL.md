@@ -1,9 +1,9 @@
 ---
-name: writing-sediment-instructions
+name: sediment-instructions
 description: Drafts, confirms and writes the instructions on the user’s Sediment shelf, their preferences for how agents save, find, edit, link and tag there, from how the user saves and names their files and uses the shelf, and a few questions. Runs only when the user calls it by name. Never load it on your own, and never offer it.
 ---
 
-# Writing Sediment Instructions
+# Sediment Instructions
 
 A shelf’s instructions are one file, `INSTRUCTIONS.md`, kept in the shelf:
 the user’s preferences for how agents use it, read by every agent before it
