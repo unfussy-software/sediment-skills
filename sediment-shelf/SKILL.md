@@ -54,9 +54,9 @@ same kind, and don’t read the command pages unless a step needs a flag the
 task page doesn’t show.
 
 If the page ends by pointing at instructions for agents, run
-`sediment help instructions` once this session, before you save or edit,
-and follow the operator’s instructions alongside the tool’s pages. If no
-page points at them, this shelf has none.
+`sediment instructions` once this session, before you save or edit, and
+follow the operator’s instructions alongside the tool’s pages. If no page
+points at them, this shelf has none.
 
 ## 3. Never
 

@@ -20,8 +20,9 @@ Wherever this skill says `sediment`, use what you found.
 
 ## 2. Read what is there
 
-Run `sediment help instructions`. It ends with THIS SHELF: the hash to write
-with, then the current file, if there is one. Keep both.
+Run `sediment instructions --json`. Its instructions object holds content,
+the current file, empty if there is none, and content_hash, the hash to
+write with. Keep both.
 
 ## 3. Gather, in this order
 
@@ -74,9 +75,9 @@ Write only what the user confirms; if they confirm nothing, write nothing.
 Never write `INSTRUCTIONS.md` yourself, and never draft in the shelf folder.
 Write the whole new file outside it, then hand it over with
 `sediment instructions`: `--content` names that file, and `--expected-hash`
-takes the hash step 2 printed. If the reply is `content_changed`, the file
-changed after you read it: go back to step 2, merge, and show what is new.
-Never send the same file again.
+takes the content_hash step 2 gave. If the reply is `content_changed`, the
+file changed after you read it: go back to step 2, merge, and show what is
+new. Never send the same file again.
 
 ## 7. Offer once to tidy
 
