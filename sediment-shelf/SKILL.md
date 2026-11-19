@@ -42,7 +42,7 @@ Wherever this skill says `sediment`, use what step 1 or 2 found.
 |---|---|
 | save, file, shelve, keep, put it on the shelf | `sediment help saving` |
 | find, pull up, open, what’s on the shelf | `sediment help finding` |
-| here’s a link, fetch this, open this link (`sediment://artifact/…`) | `sediment help finding` |
+| here’s a link, fetch this, open this link (`sediment://a/…`, or an older `sediment://artifact/…`) | `sediment help finding` |
 | update, edit, change, tag, rename, pin | `sediment help editing` |
 | archive, put away, restore, bring back | `sediment help editing` |
 | remove this, take that off the shelf, undo that add | `sediment help editing` |
